@@ -3,7 +3,7 @@
 # Reference: http://azurecentric.com/2019/05/how-to-remove-a-hostpool-from-the-windows-virtual-desktop-on-azure-2/
 
 # Variables
-$tenant = "rbiagtangmail.onmicrosoft.com"
+$tenant = "rbiagtangmail.onmicrosoft.com" # note: to get Tenant name: Get-RdsTenant
 $Hostpool = "HostPool1425" # note: to get RDS Host Pool Name use: Get-RdsHostPool -tenant $tenant
 
 # STEP ONE - Login on WVD Desktop Tenant
